@@ -84,7 +84,7 @@ jobs:
               with:
                   tagName: 'microsoftcopliot'
                   releaseName: 'microsoftcopliot v__VERSION__'
-                  releaseBody: ''
+                  releaseBody: 'Microsoft copliot'
                   releaseDraft: false
                   prerelease: false
                   publish: true
