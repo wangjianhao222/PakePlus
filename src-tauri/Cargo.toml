@@ -1,8 +1,7 @@
 [package]
 name = "microsoftcopliot"
 version = "1.1.1"
-description = "THE MICROSOFT AI
-"
+description = ""
 authors = ["1024xiaoshen"]
 edition = "2021"
 
