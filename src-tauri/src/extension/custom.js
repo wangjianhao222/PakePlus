@@ -46,28 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     observer.observe(targetNode, config)
 })
-
-// css filter
-document.addEventListener('DOMContentLoaded', () => {
-    const targetNode = document.body
-    // 配置观察选项
-    const config = {
-        childList: true,
-        subtree: true,
-    }
-    const observer = new MutationObserver((mutationsList, observer) => {
-        for (const mutation of mutationsList) {
-            if (mutation.type === 'childList') {
-                const element0 = document.querySelector('copliot');
-                if (element0) {
-                    element0.style.display = 'none';
-                }
-            }
-        }
-    })
-    observer.observe(targetNode, config)
-})
-// end css filter
 // microsoft  copliot.js
 
 <!DOCTYPE html><html dir="ltr" lang="zh" xml:lang="zh" xmlns="http://www.w3.org/1999/xhtml" xmlns:Web="http://schemas.live.com/Web/"><script type="text/javascript" nonce="AZ7dzuIIeV5B2EfrzqCkPNLJ5eg/T8jJqot1tdAjFHY=" >//<![CDATA[
